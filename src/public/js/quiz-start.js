@@ -82,7 +82,10 @@ function answerButtonClickHandler() {
 	}, 150)
 
 	function checkAnswer(selectedAnswer, correctAnswer, questionIndex) {
+		let correctAnswerCount = sessionStorage.getItem("correctAnswer") || 0
 		if (selectedAnswer === correctAnswer.toString()) {
+			correctAnswerCount++
+			sessionStorage.setItem("correctAnswer", correctAnswerCount)
 			correctAnswersCount++
 			return { correct: true, questionIndex }
 		} else {
