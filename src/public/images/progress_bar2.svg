@@ -1,0 +1,12 @@
+<svg width="198" height="16" viewBox="0 0 198 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="197" y1="8.75" x2="1" y2="8.75" stroke="#4B73A3" stroke-width="1.5"/>
+<circle cx="193" cy="8" r="4.5" fill="#FFD12F" stroke="#4B73A3"/>
+<circle cx="37" cy="8" r="4.5" fill="#FAFAFA" stroke="#4B73A3"/>
+<circle cx="63" cy="8" r="4.5" fill="#FAFAFA" stroke="#4B73A3"/>
+<circle cx="89" cy="8" r="4.5" fill="#FAFAFA" stroke="#4B73A3"/>
+<circle cx="115" cy="8" r="4.5" fill="#FAFAFA" stroke="#4B73A3"/>
+<circle cx="141" cy="8" r="4.5" fill="#FAFAFA" stroke="#4B73A3"/>
+<circle cx="167" cy="8" r="4.5" fill="#FAFAFA" stroke="#4B73A3"/>
+<circle cx="8" cy="8" r="7.5" fill="#FAFAFA" stroke="#4B73A3"/>
+<path d="M3.656 11V10.048H4.928V6.304H3.856V5.576C4.448 5.464 4.856 5.312 5.232 5.072H6.104V10.048H7.216V11H3.656ZM10.0709 11.112C8.86294 11.112 8.06294 10.056 8.06294 8.016C8.06294 5.968 8.86294 4.968 10.0709 4.968C11.2789 4.968 12.0709 5.976 12.0709 8.016C12.0709 10.056 11.2789 11.112 10.0709 11.112ZM10.0709 10.192C10.5829 10.192 10.9589 9.68 10.9589 8.016C10.9589 6.36 10.5829 5.88 10.0709 5.88C9.55894 5.88 9.17494 6.36 9.17494 8.016C9.17494 9.68 9.55894 10.192 10.0709 10.192Z" fill="#4B73A3"/>
+</svg>

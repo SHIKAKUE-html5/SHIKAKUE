@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=], initial-scale=1.0" />
+		<title>DELETE QUESTION</title>
+		<link rel="stylesheet" href="/css/home.css" />
+		<link rel="stylesheet" href="/css/create-quest.css" />
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li><a href="/home">HOME</a></li>
+					<li><a href="/create-user">CREATE</a></li>
+					<li><a class="active" href="/#">CREATE QUESTION</a></li>
+					<li><a href="/">INDEX PAGE</a></li>
+					<li><a href="/quiz-start">QUIZ</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<div class="form">
+				<form action="/delete-question" method="post">
+					<fieldset>
+						<legend>Edit question</legend>
+						<div class="input-group d-none">
+							<label for="id">Id:</label>
+							<input
+								type="text"
+								name="id"
+								id="id"
+								placeholder="Enter your id"
+								value="<%= Quiz.id  %>"
+							/>
+						</div>
+						<div class="input-group">
+							<p>
+								Are you sure delete question: <br />
+								<span><%= Quiz.question %></span>
+							</p>
+						</div>
+						<br />
+						<button type="submit" id="submit">Submit</button>
+					</fieldset>
+				</form>
+			</div>
+		</main>
+	</body>
+</html>
