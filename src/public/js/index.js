@@ -9,9 +9,10 @@ if (value === null) {
 	value = parseInt(value)
 }
 
-if (value > 30) {
+if (value >= 30) {
 	active.style.width = "100%"
 	statusText.innerText = "30問+"
+	active.style.borderRadius = "40px"
 } else {
 	active.style.width = (value * 100) / 30 + "%"
 	statusText.innerText = value + "問"
