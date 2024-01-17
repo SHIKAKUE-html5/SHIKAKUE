@@ -14,8 +14,7 @@
 2. 依存関係をインストール: `npm install`
 3. `.env.example`を`.env`にコピーし、環境変数を入力してください。
 4. SCSS を CSS にコンパイルする: `gulp sass`
-5. データベースのマイグレーションを実行: `npm run migrate`
-6. サーバーを起動: `npm start`
+5. サーバーを起動: `npm start`
 
 ## プロジェクト構造
 
