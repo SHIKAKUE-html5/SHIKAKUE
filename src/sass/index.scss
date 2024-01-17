@@ -43,7 +43,7 @@ header {
 			background: asset.$mainColor;
 			position: relative;
 			.inner_bar {
-				width: 242px;
+				width: 0;
 				height: 23px;
 				border-top-left-radius: 40px;
 				border-bottom-left-radius: 40px;
@@ -51,6 +51,7 @@ header {
 				position: absolute;
 				top: 0;
 				left: 0;
+				transition: width 0.5s ease-in-out;
 			}
 			p {
 				color: #b58d00;
