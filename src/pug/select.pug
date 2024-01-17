@@ -1,0 +1,97 @@
+doctype html
+html(lang="ja")
+  head 
+    include _html_header
+    title Select  
+    link(rel="stylesheet", href="css/select.css")
+  body 
+    header 
+      figure
+          a(href="add.html") 
+            img(src="img/arrow.svg", alt="")
+      h1 問題メーカー
+    main 
+      .top_btn 
+        .text_wrap 
+          h2 ここから追加する問題を選択してください
+          p ※すでに入っている問題にはオレンジ丸がついています
+        .ham 
+          img(src="img/filter_button.svg", alt="")
+      .section_wrap 
+        .section_head  
+          .flex_left 
+            input(type="checkbox" checked)
+            h3 Section1 
+            p 全体の正答率75%
+          figure 
+            img(src="img/arrow_down.svg", alt="")
+          //- input.toggle(type="checkbox")
+        .dropdown 
+          .slider 
+            .section.display  
+              a(href="index.html") 
+                .flex_wrap 
+                  input(type="checkbox")
+                  h3 Section1 Q7 
+                  figure 
+                    img(src="img/answer_button.svg", alt="")
+                p レベルHTMLのlink要素に関する記述のうち正しくない
+                  | ものを選びなさい。
+            .section 
+              .flex_wrap 
+                input(type="checkbox" checked)
+                h3 Section1 Q9 
+                figure 
+                  img(src="img/answer_button.svg", alt="")
+              p レベルHTMLのlink要素に関する記述のうち正しくない
+                | ものを選びなさい。
+            .section 
+              .flex_wrap 
+                input(type="checkbox")
+                h3 Section1 Q3 
+                figure 
+                  img(src="img/answer_button.svg", alt="")
+              p レベルHTMLのlink要素に関する記述のうち正しくない
+                | ものを選びなさい。
+            .section 
+              .flex_wrap 
+                input(type="checkbox")
+                h3 Section1 Q5 
+                figure 
+                  img(src="img/answer_button.svg", alt="")
+              p レベルHTMLのlink要素に関する記述のうち正しくない
+                | ものを選びなさい。
+            .section 
+              .flex_wrap 
+                input(type="checkbox" checked)
+                h3 Section1 Q2 
+                figure 
+                  img(src="img/answer_button.svg", alt="")
+              p レベルHTMLのlink要素に関する記述のうち正しくない
+                | ものを選びなさい。
+            .section 
+              .flex_wrap 
+                input(type="checkbox")
+                h3 Section1 Q4 
+                figure 
+                  img(src="img/answer_button.svg", alt="")
+              p レベルHTMLのlink要素に関する記述のうち正しくない
+                | ものを選びなさい。
+            .section 
+              .flex_wrap 
+                input(type="checkbox" checked)
+                h3 Section1 Q6 
+                figure 
+                  img(src="img/answer_button.svg", alt="")
+              p レベルHTMLのlink要素に関する記述のうち正しくない
+                | ものを選びなさい。
+            .section 
+              .flex_wrap 
+                input(type="checkbox")
+                h3 Section1 Q5  
+                figure 
+                  img(src="img/answer_button.svg", alt="")
+              p レベルHTMLのlink要素に関する記述のうち正しくない
+                | ものを選びなさい。
+    include _main_footer
+    include _html_footer
