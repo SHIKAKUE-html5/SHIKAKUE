@@ -89,6 +89,10 @@ const getCreatePage = (req, res) => {
 const getAddPage = (req, res) => {
 	res.render("add.ejs")
 }
+
+const getSelectPage = (req, res) => {
+	res.render("select.ejs")
+}
 module.exports = {
 	getIndexPage,
 	getHomePage,
@@ -109,4 +113,5 @@ module.exports = {
 	getOriginalPage,
 	getCreatePage,
 	getAddPage,
+	getSelectPage,
 }

@@ -20,6 +20,7 @@ const {
 	getOriginalPage,
 	getCreatePage,
 	getAddPage,
+	getSelectPage,
 } = require("../controllers/getControllers")
 
 router.get("/", getIndexPage)
@@ -41,5 +42,6 @@ router.get("/incorrect", getIncorrectPage)
 router.get("/original", getOriginalPage)
 router.get("/create", getCreatePage)
 router.get("/add", getAddPage)
+router.get("/select", getSelectPage)
 
 module.exports = router
