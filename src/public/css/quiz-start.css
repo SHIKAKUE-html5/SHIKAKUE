@@ -294,6 +294,12 @@ body {
 	/* /test */
 	/* display: block; */
 }
+.quest-explain-box .top-bar {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 .quest-explain-title {
 	font-size: 1.5rem;
 	font-weight: 900;
@@ -310,11 +316,8 @@ body {
 	display: none;
 }
 .close-button {
-	font-size: 3rem;
+	font-size: 2rem;
 	font-weight: 700;
-	position: absolute;
-	right: 5%;
-	top: 0%;
 }
 .e-answer-box {
 	display: flex;
