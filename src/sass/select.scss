@@ -9,6 +9,8 @@ header {
 	width: 100%;
 	height: 60px;
 	display: flex;
+	position: fixed;
+	top: 0;
 	align-items: flex-end;
 	border-bottom: solid 2px asset.$baseColor;
 	background: asset.$mainColor;
@@ -33,6 +35,7 @@ header {
 main {
 	width: 100%;
 	height: 564px;
+	margin-top: 60px;
 	.top_btn {
 		display: flex;
 		justify-content: space-between;
@@ -63,8 +66,9 @@ main {
 	}
 	.section_wrap {
 		width: 358px;
-		height: 1180px;
+		height: auto;
 		margin: 0 auto;
+		margin-bottom: 16px;
 		background: asset.$mainColor;
 		.section_head {
 			display: flex;
@@ -128,10 +132,9 @@ main {
 			width: 100%;
 			height: fit-content;
 			.slider {
-				// opacity: 0;
-				transition: 0.3s ease;
+				transition: height 0.3s ease-in-out;
 				height: 0;
-				pointer-events: none;
+				overflow: hidden;
 				.section {
 					width: 100%;
 					height: 112px;
