@@ -1,5 +1,10 @@
 # シカクエ
 
+<p align="center">
+  <img src="https://cdn.discordapp.com/attachments/1082524923102248980/1197382152392806400/image.png?ex=65bb1007&is=65a89b07&hm=fb60056f14daab7d8ac8b18de9663ad777a19e4ae6ce0204942c85c817cac1d8&" width="370" height="797" />
+  <img src="https://cdn.discordapp.com/attachments/1082524923102248980/1197383768927916074/image.png?ex=65bb1188&is=65a89c88&hm=396cf9fce498c658601289a5b2acb5719adb135489349e81abd91d06a6d2c857&" width="370" height="797"/>
+</p>
+
 ## 概要
 
 シカクエは、HTML5 検定の資格勉強をサポートするためのアプリケーションです。忙しい仕事や学業に追われる人々が、隙間時間を活用して楽しく資格勉強ができるように設計されています。
