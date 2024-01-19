@@ -342,7 +342,8 @@ body li {
 }
 
 footer {
-  margin-top: 100px;
+  position: fixed;
+  bottom: 0;
   width: 100%;
   height: 120px;
 }
@@ -350,6 +351,8 @@ footer .navbar {
   width: 100%;
   height: 120px;
   background-image: url("/public/img/nav_frame.svg");
+  background-position: center;
+  background-size: cover;
 }
 footer .navbar ul {
   display: flex;
